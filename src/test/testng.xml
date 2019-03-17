@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+    <test name="GPSTest" >
+        <parameter name="destination"  value="Amsterdam"/>
+        <classes>
+            <class name="GPSTest"/>
+        </classes>
+    </test>
+</suite>
